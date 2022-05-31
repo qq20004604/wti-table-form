@@ -1,0 +1,92 @@
+.el-radio__input.is-checked + .el-radio__label {
+  color: #EE473A !important;
+}
+
+.el-radio__input.is-checked .el-radio__inner {
+  border-color: #EE473A !important;
+  background: #fff !important;
+}
+
+.el-radio__inner::after {
+  width: 0.5rem !important;
+  height: 0.5rem !important;
+  background-color: #EE473A !important;
+}
+
+.el-radio__inner {
+  width: 1rem !important;
+  height: 1rem !important;
+}
+
+.el-radio__inner:hover {
+  border-color: #EE473A !important;
+}
+
+.wti-form-external {
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
+
+  .clear-icon-setting {
+    .el-input__suffix {
+      right: 40px !important;
+      top: -1px !important;
+    }
+
+    .el-input--suffix {
+      .el-input__inner {
+        padding-right: 64px !important;
+      }
+    }
+  }
+
+  .single_input {
+    .data-value {
+      .el-input__prefix {
+        left: inherit;
+        right: 5px;
+
+        .el-input__icon {
+          line-height: 100%;
+        }
+
+        .el-input__icon:before {
+          font-size: 0.9rem;
+          line-height: 2rem;
+        }
+      }
+
+      .el-input__suffix {
+        right: 30px;
+
+        .el-input__icon {
+          line-height: 100%;
+        }
+      }
+
+      .el-input__inner {
+        padding-left: 15px;
+      }
+    }
+  }
+}
+
+.el-form-item.is-error .el-input__inner, .el-form-item.is-error .el-input__inner:focus, .el-form-item.is-error .el-textarea__inner, .el-form-item.is-error .el-textarea__inner:focus, .el-message-box__input input.invalid, .el-message-box__input input.invalid:focus {
+  border-color: #EE473A !important;
+}
+
+.el-date-picker-daterange {
+  position: relative;
+
+  .el-icon-date {
+    position: absolute;
+    right: 5px;
+    top: 1px;
+    color: #c0c4cc;
+  }
+}

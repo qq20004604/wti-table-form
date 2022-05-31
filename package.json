@@ -1,0 +1,38 @@
+{
+  "name": "wti-table-form",
+  "version": "1.0.0",
+  "description": "提高 10 倍开发效率的低代码表单组件",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack serve --mode development --env development --config build/webpack.config.js",
+    "build": "cross-env NODE_ENV=production webpack --mode production --config build/webpack.config.js",
+    "lint": "eslint --fix --ext .js,.jsx,.vue package"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qq20004604/wti-form.git"
+  },
+  "keywords": [
+    "wti-form",
+    "low-code",
+    "form",
+    "element-ui"
+  ],
+  "files": [
+    "README.md",
+    "index.js",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "author": "王冬",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/qq20004604/wti-form/issues"
+  },
+  "homepage": "https://github.com/qq20004604/wti-form#readme",
+  "devDependencies": {
+    "axios": "^0.21.1",
+    "element-ui": "^2.15.5",
+    "vue": "^2.6.12"
+  }
+}
